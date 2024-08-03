@@ -1,0 +1,23 @@
+{
+  "name": "hospital",
+  "version": "1.0.0",
+  "description": "Hospital Backend Protoype",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon ./bin/www"
+  },
+  "author": "erlando dominico",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
